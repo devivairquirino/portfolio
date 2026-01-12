@@ -1,12 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ivair Quirino | Portifolio </title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <nav class="navegacao">
+        <ul>
+            <li>
+                <a href="#inicio">Inicio</a>
+            </li>
+            <li>
+                <a href="#sobre">Sobre</a>
+            </li>
+            <li>
+                <a href="#projetos">Projetos</a>
+            </li>
+            <li>
+                <a href="#contato">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="inicio" class="cabecalho">
+        <div>
+            <img src="img\perfil.jpg" alt="foto-perfil" class="foto-perfil">
+            <h1>Ivair Quirino</h1>
+            <p>Desenvolvedor Front End</p>
+        </div>
+    </main>
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre mim</h2>
+        <div class="sobre-caixa">
+            <p class="conre-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident expedita
+                blanditiis ipsam nisi. Sequi,
+                at! Deserunt ut at amet quaerat saepe neque eaque nam esse, eos dolore dolorem id vel.</p>
+        </div>
+    </section>
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+
+        <div class="projetos-caixa">
+            <div class="projetos-card">
+                <img src="img/tempo.jpg" alt="Projeto" class="projeto-imagem">
+                <h3 class="info-projetos">Previsão do Tempo</h3>
+                <p class="paragrafo-projetos">Site para ver a previsão do tempo!</p>
+            </div>
+
+            <div class="projetos-caixa">
+                <div class="projetos-card">
+                    <img src="img/form.jpg" alt="Projeto" class="projeto-imagem">
+                    <h3 class="info-projetos">Projeto Formulário</h3>
+                    <p class="paragrafo-projetos">Formulario para cadastro!</p>
+                </div>
+
+                <div class="projetos-caixa">
+                    <div class="projetos-card">
+                        <img src="img/restaurante.jpg" alt="Projeto" class="projeto-imagem">
+                        <h3 class="info-projetos">Página para Restaurante</h3>
+                        <p class="paragrafo-projetos">Projeto de restaurante.</p>
+                    </div>
+                    <div class="projetos-caixa">
+                        <div class="projetos-card">
+                            <img src="img/senha.jpg" alt="Projeto" class="projeto-imagem">
+                            <h3 class="info-projetos">Gerador de senhas</h3>
+                            <p class="paragrafo-projetos">Projeto para gerar senhas seguras.</p>
+                        </div>
+
+                    </div>
+    </section>
+    <section id="contatos" class="contatos">
+
+        <h2 class="contatos-titulo">Contatos</h2>
+
+        <form class="formulatio-contato" id="formulario">
+
+            <div class="nome-form">
+                <input type="text" placeholder="Nome" class="campo-form">
+            </div>
+
+            <div class="grupo-form">
+
+                <textarea placeholder="Digite sua Mensagem..." class="text-form"></textarea>
+
+            </div>
+        </form>
+    </section>
 </body>
+
 </html>
