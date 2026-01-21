@@ -6,12 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ivair Quirino | Portifolio </title>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <div class="particulas"></div>
-    <nav class="navegacao">
+    <nav class="nav">
         <ul class="menu">
             <li>
                 <a href="#inicio" class="menu-link">Inicio</a>
@@ -38,9 +46,7 @@
 
         <div class="sobre-caixa">
 
-            <p class="sobre-paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident expedita
-                blanditiis ipsam nisi. Sequi,
-                at! Deserunt ut at amet quaerat saepe neque eaque nam esse, eos dolore dolorem id vel.</p>
+            <p class="sobre-paragrafo">Desenvolvedor front-end em formação, com conhecimentos em HTML, CSS e JavaScript. Possuo base inicial em Java e estou em constante aprendizado através de projetos práticos. Atuo como soldador e estou em transição de carreira para o desenvolvimento, trazendo disciplina, foco e atenção aos detalhes. Em 2026, iniciarei a graduação em Análise e Desenvolvimento de Sistemas, buscando consolidar minha carreira na área de tecnologia.</p>
 
         </div>
     </section>
@@ -58,35 +64,35 @@
                 </div>
 
             </div>
-                <div class="projetos-card">
-                    <img src="img/form.jpg" alt="Projeto" class="projetos-imagem">
+            <div class="projetos-card">
+                <img src="img/form.jpg" alt="Projeto" class="projetos-imagem">
 
-                    <div class="caixa-texto-projeto">
-                        <h3 class="info-projetos">Projeto Formulário</h3>
-                        <p class="paragrafo-projetos">Formulario para cadastro!</p>                  
-                    </div>
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">Projeto Formulário</h3>
+                    <p class="paragrafo-projetos">Formulario para cadastro!</p>
+                </div>
+            </div>
+
+            <div class="projetos-card">
+                <img src="img/restaurante.jpg" alt="Projeto" class="projetos-imagem">
+
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">Página para Restaurante</h3>
+                    <p class="paragrafo-projetos">Projeto de restaurante.</p>
                 </div>
 
-                    <div class="projetos-card">
-                        <img src="img/restaurante.jpg" alt="Projeto" class="projetos-imagem">
+            </div>
 
-                        <div class="caixa-texto-projeto">
-                            <h3 class="info-projetos">Página para Restaurante</h3>
-                            <p class="paragrafo-projetos">Projeto de restaurante.</p>
-                        </div>
+            <div class="projetos-card">
+                <img src="img/senha.jpg" alt="Projeto" class="projetos-imagem">
 
-                    </div>
+                <div class="caixa-texto-projeto">
+                    <h3 class="info-projetos">Gerador de senhas</h3>
+                    <p class="paragrafo-projetos">Projeto para gerar senhas seguras.</p>
+                </div>
+            </div>
 
-                        <div class="projetos-card">
-                            <img src="img/senha.jpg" alt="Projeto" class="projetos-imagem">
-
-                            <div class="caixa-texto-projeto">
-                                <h3 class="info-projetos">Gerador de senhas</h3>
-                                <p class="paragrafo-projetos">Projeto para gerar senhas seguras.</p>
-                            </div>        
-                        </div>
-
-                    </div>
+        </div>
     </section>
     <section id="contato" class="contatos">
 
@@ -100,10 +106,11 @@
 
             <div class="grupo-form">
 
-                <textarea placeholder="Digite sua Mensagem..." class="campo-form" id="mensagem" rows="4" value="Ivair" required></textarea>
+                <textarea placeholder="Digite sua Mensagem..." class="campo-form" id="mensagem" rows="4" value="Ivair"
+                    required></textarea>
 
             </div>
-            <button type="submit" class="botao-form" >Enviar Whatsapp</button>
+            <button type="submit" class="botao-form">Enviar Whatsapp</button>
         </form>
     </section>
     <script src="enviarMensagem.js"></script>
