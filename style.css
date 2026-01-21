@@ -218,9 +218,17 @@ h1 {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    font-weight: bold;
+
     width: 100%;
     transition: all 0.5s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    justify-content: center;
+}
+.botao-form p{
+        font-weight: bold;
+
 }
 
 .botao-form:hover {
@@ -238,6 +246,10 @@ h1 {
     opacity: 0.5;
     background: radial-gradient(circle at 10% 20%, var(--primaria) 0%, transparent 20%),
         radial-gradient(circle at 90% 80%, var(--secundaria) 0%, transparent 20%), var(--maisEscuro);
+}
+.icons{
+    width: 30px;
+    height: 30px;
 }
 
 @keyframes flutuar {
