@@ -102,7 +102,7 @@ h1 {
 
 }
 
-.sobre {
+.caixa-sessao {
     padding: 6rem 2rem;
 }
 
@@ -123,16 +123,10 @@ h1 {
     margin-bottom: 100px;
 }
 
-
-
 .sobre-paragrafo {
     text-align: center;
     font-size: 1rem;
     line-height: 1.7rem;
-}
-
-.projetos {
-    padding: 6rem 2rem;
 }
 
 .projetos-caixa {
@@ -140,6 +134,7 @@ h1 {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     max-width: 1200px;
+    margin: 0 auto;
     margin-bottom: 100px;
 }
 
@@ -175,10 +170,6 @@ h1 {
 
 .caixa-texto-projeto {
     padding: 1.5rem;
-}
-
-.contatos {
-    padding: 6rem 2rem;
 }
 
 .formulatio-contato {
